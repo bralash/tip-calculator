@@ -1,5 +1,5 @@
 import './App.css'
-import TipContainer from './components/TipContainer'
+import TipContainer from './components/TipContainer/TipContainer'
 
 const App = () => {
   return <>

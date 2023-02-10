@@ -15,6 +15,11 @@ section.container {
     font-family: 'Space Mono';
     display: flex;
     justify-content: space-between;
+    gap: 48px;
+}
+
+.bill-section {
+    width: 379px;
 }
 
 .bill-section h3 {
@@ -70,6 +75,14 @@ section.container {
 .input-container input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+.tip-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    row-gap: 16px;
 }
 
 .total-section {

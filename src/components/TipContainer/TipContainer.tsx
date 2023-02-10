@@ -1,4 +1,5 @@
 import React from "react";
+import TipButton from "../TipButton/TipButton";
 import "./TipContainer.css";
 
 const TipContainer = () => {
@@ -12,6 +13,13 @@ const TipContainer = () => {
             <input type="number" />
           </div>
           <h3>Select Tip %</h3>
+          <div className="tip-buttons">
+            <TipButton value={5} />
+            <TipButton value={10} />
+            <TipButton value={15} />
+            <TipButton value={25} />
+            <TipButton value={50} />
+          </div>
         </div>
         <div className="total-section"></div>
       </section>

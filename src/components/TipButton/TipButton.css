@@ -1,0 +1,11 @@
+.tip-button {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    background-color: #00474B;
+    color: #fff;
+    max-width: fit-content;
+    padding: 6px 44px;
+    border-radius: 5px;
+    flex: 33.33%;
+}
