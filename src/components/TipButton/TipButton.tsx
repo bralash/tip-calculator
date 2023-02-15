@@ -1,7 +1,7 @@
 import React from "react"
 import './TipButton.css'
 
-type ButtonProps = {
+interface ButtonProps {
     value: number
 }
 

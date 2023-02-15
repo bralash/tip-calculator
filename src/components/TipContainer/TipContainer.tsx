@@ -1,4 +1,5 @@
 import React from "react";
+import InputButton from "../InputButton/InputButton";
 import TipButton from "../TipButton/TipButton";
 import "./TipContainer.css";
 
@@ -19,6 +20,7 @@ const TipContainer = () => {
             <TipButton value={15} />
             <TipButton value={25} />
             <TipButton value={50} />
+            <InputButton />
           </div>
         </div>
         <div className="total-section"></div>
